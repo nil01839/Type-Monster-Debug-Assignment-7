@@ -1,0 +1,24 @@
+.card{
+    border:2px solid gray;
+    box-shadow: 4px 4px 8px grey;
+    padding: 10px;
+    width: 320px;
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+
+.card-container{
+    max-width: 1170px;
+    margin: auto;
+}
+@media only screen and (min-width: 600px) {
+ .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+ }
+@media only screen and (min-width: 1060px) {
+ .card-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+ }
+}
